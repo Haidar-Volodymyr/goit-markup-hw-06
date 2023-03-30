@@ -646,6 +646,7 @@ body {
   left: 16px;
 }
 .modal-form-imput-wrapper {
+  display: block;
   position: relative;
 }
 
