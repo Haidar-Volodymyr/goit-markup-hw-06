@@ -605,6 +605,15 @@ body {
 }
 /* ================= MODAL WINDOW ============== */
 /* ================= MODAL FORM ============== */
+.text-modal {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+  margin-bottom: 16px;
+}
 .modal-form {
   display: flex;
   flex-direction: column;
@@ -628,4 +637,16 @@ body {
 .modal-form-field {
   margin-bottom: 8px;
 }
+.modal-input-icon {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 16px;
+}
+.modal-form-imput-wrapper {
+  position: relative;
+}
+
 /* ================= MODAL FORM ============== */
