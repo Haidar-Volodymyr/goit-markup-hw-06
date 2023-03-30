@@ -432,23 +432,36 @@ https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css
             <use href="./images/sprite.svg#icon-close-btn"></use>
           </svg>
         </button>
-        <p>Leave your contacts and we will call you back</p>
+        <p class="text-modal">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <label class="modal-form-field">
             <span class="modal-form-input-desc">Name</span>
+            <div class="modal-form-imput-wrapper">
             <input type="text" name="use_name" class="modal-form-input" required pattern="^[a-zA-Zа-яА-Я]+" minlength="3">
-            <svg>
-              <use href=></use>
+            <svg class="modal-input-icon">
+              <use  href="./images/sprite.svg#icon-person"></use>
             </svg>
+            </div>
           </label>
           <label class="modal-form-field">
             <span class="modal-form-input-desc">Phone</span>
+            <div class="modal-form-imput-wrapper">
             <input type="tel" name="user_phone" class="modal-form-input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
             title="xxx-xxx-xx-xx">
-          </label>
+            <svg class="modal-input-icon">
+              <use c href="./images/sprite.svg#icon-phone"></use>
+            </svg>
+
+            </div>
+          </label>         
         <label class="modal-form-field">
             <span class="modal-form-input-desc">Email</span>
+            <div class="modal-form-imput-wrapper">           
             <input type="email" name="user_email" class="modal-form-input" required pattern="^\S+@\S+\.\S+$">
+            <svg class="modal-input-icon">
+              <use c href="./images/sprite.svg#icon-email"></use>
+            </svg>
+            </div>
           </label>
            <label class="modal-form-field">
             <span class="modal-form-input-desc">Comment</span>
