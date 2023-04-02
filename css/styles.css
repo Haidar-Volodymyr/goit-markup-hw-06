@@ -749,8 +749,10 @@ body {
 }
 .modal-form-check:checked + .modal-form-check-desc::before {
   background: var(--pressed-state-color);
-  background-image: url(../images/vector.svg);
-  background-size: cover;
+  background-image: url(../images/Property-12.svg);
+  background-size: contain;
+  background-origin: border-box;
+  background-color: var(--pressed-state-color);
 }
 .visually-hidden {
   position: absolute;
